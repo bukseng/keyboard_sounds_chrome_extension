@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Keyboard Sounds</title>
+	<style>
+		body {
+			font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+			font-size: 100%;
+			background-color: #2b2b2b;
+			min-width: 200px;
+		}
+		
+		label {
+			display: block;
+			padding: 0px 1em 0px 8px;
+			color: #ffffff;
+		}
+		
+		fieldset{
+			border-color: #d3d3d3;
+			border-style: solid;
+		}
+		
+		legend{
+			color: #ffffff;
+		}
+
+	</style>
+
+	<script src="popup.js"></script>
+	</head>
+	<body>
+		<fieldset>
+		<legend>Keyboards</legend>
+		<form name="keys_selection">
+			<label for="none"><input type="radio" id="none" name="keys">None</label>		
+			<label for="mech_00"><input type="radio" id="mech_00" name="keys">Mechanical A</label>
+			<label for="mech_01"><input type="radio" id="mech_01" name="keys">Mechanical B</label>
+			<label for="mech_02"><input type="radio" id="mech_02" name="keys">Mechanical C</label>
+			<label for="mech_03"><input type="radio" id="mech_03" name="keys">Mechanical D</label>
+			<label for="mech_04"><input type="radio" id="mech_04" name="keys">Mechanical E</label>
+			<label for="mech_05"><input type="radio" id="mech_05" name="keys">Mechanical F</label>
+			<label for="wood_00"><input type="radio" id="wood_00" name="keys">Mechanical G</label>
+			<label for="norm_00"><input type="radio" id="norm_00" name="keys">Vintage A</label>
+			<label for="norm_01"><input type="radio" id="norm_01" name="keys">Vintage B</label>
+			<label for="norm_02"><input type="radio" id="norm_02" name="keys">Vintage C</label>
+			<label for="typw_00"><input type="radio" id="typw_00" name="keys">Typewriter A</label>
+			<label for="typw_01"><input type="radio" id="typw_01" name="keys">Typewriter B</label>
+			<label for="silent_00"><input type="radio" id="silent_00" name="keys">Typewriter C</label>
+			<label for="laptop_00"><input type="radio" id="laptop_00" name="keys">Laptop A</label>
+			<label for="laptop_01"><input type="radio" id="laptop_01" name="keys">Laptop B</label>
+		</form>
+		</fieldset>
+	</body>
+</html>
+
