@@ -1,8 +1,8 @@
 {
    "background": {
-      "service_worker": "background.html"
+      "page": "background.html"
    },
-   "action": {
+   "browser_action": {
       "default_icon": "icon.png",
       "default_popup": "popup.html"
    },
@@ -15,9 +15,8 @@
       "128": "icon128.png",
       "48": "icon48.png"
    },
-   "manifest_version": 3,
+   "manifest_version": 2,
    "name": "Keyboard Sounds",
    "permissions": [ "storage" ],
-   "version": "1.0",
-   "host_permissions": ["<all_urls>"]
+   "version": "1.0"
 }
